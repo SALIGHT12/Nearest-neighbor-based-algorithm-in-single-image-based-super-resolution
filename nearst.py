@@ -56,7 +56,7 @@ for filename in os.listdir(folder_path):
 #print("SSIM between Inference and Nearest Neighbor: {:.4f}".format(ssim_x_))
 # # Display the figure
 # plt.show()
-# cv2.imwrite('C:/Users/Soumia/Desktop/Projet_Messali_Zoubeida/Soumia_programs/nearst/Inearest.jpg', Inearest)
+# cv2.imwrite('C:/Users/Soumia/nearest.jpg', Inearest)
 fig, axes = plt.subplots(nrows=1, ncols=3, figsize=(18, 16))
 Ireference = cv2.imread(os.path.join(folder_path,str(1) + ".jpg"))
 Ilowres = cv2.imread(os.path.join(result_path, "L_" + str(1) + ".jpg"))
